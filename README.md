@@ -5,6 +5,6 @@ xgboost-predictor ，java使用python训练的xgboost模型文件，模型文件
 ```java
 public static void main(String[] args) {
   XgBooster xgb = new XgBooster("./data/dump.model");
-	System.out.println(xgb.score("1:1 2:1 3:0.223 33:22 7:3"));
+  System.out.println(xgb.score("1:1 2:1 3:0.223 33:22 7:3"));
 }
 ```
